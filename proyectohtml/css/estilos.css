@@ -1,0 +1,34 @@
+body {
+    background-color: black;
+    background-image: url(/images/pexels-pixabay-159400.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.imagen {
+    position: absolute;
+    justify-content: center;
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+.login {
+    text-align: center;
+    background-color: rgb(206, 206, 206);
+    border: 3px solid rgb(206, 206, 206);
+    margin: 150px;
+}
+
+input {
+    border-radius: 20px;
+}
