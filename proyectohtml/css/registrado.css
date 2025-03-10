@@ -1,0 +1,64 @@
+body {
+    background-color: black;
+    background-image: url(/images/pexels-pixabay-159400.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.imagen {
+    width: 60px;
+    height: 60px;
+}
+
+.titulo1 {
+    margin-top: 0px;
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.titulo2 {
+    font-size: 30px;
+}
+
+.registrado {
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    padding-left: 1px;
+    padding-bottom: 2px;
+    padding-top: 8px;
+    margin-top: 60px;
+    margin-left: 450px;
+    margin-right: 450px;
+    animation: desaparecer 1s forwards; 
+}
+
+@keyframes desaparecer {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.Logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: aparecer 10s normal;
+    animation: desaparecer 4s normal; 
+}
+
+@keyframes aparecer {
+    0% { opacity: 0; }
+    25% {opacity: 0.25;}
+    50% { opacity: 0.50;}
+    75% { opacity: 0.75;}
+    100% { opacity: 1; }
+}
+
+@keyframes desaparecer {
+    0% { opacity: 0; }
+    25% { opacity: 0.25;}
+    50% { opacity: 0.50;}
+    75% { opacity: 0.75;}
+    100% { opacity: 1; }
+}
