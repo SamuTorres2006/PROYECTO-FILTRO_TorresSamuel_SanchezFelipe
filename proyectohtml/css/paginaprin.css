@@ -1,0 +1,27 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+}
+
+.imagen {
+    width: 23px;
+}
+
+nav {
+    background-color: yellow;
+    text-align: center;
+}
+
+#logocentral {
+    width: 45px;
+    height: 45px;
+}
+
+a {
+    font-size: 20px;
+    text-decoration: none;
+    margin: 150px;
+}

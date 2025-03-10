@@ -5,7 +5,7 @@ body {
     background-size: auto;
 }
 
-.imagen {
+.logo {
     width: 60px;
     height: 60px;
 }
@@ -20,6 +20,12 @@ body {
     font-size: 30px;
 }
 
+
+.main_posicion {
+    position: relative;
+    top: 25%;
+}
+
 .registrado {
     text-align: center;
     background-color: white;
@@ -28,27 +34,26 @@ body {
     padding-bottom: 1px;
     padding-top: 8px;
     margin-top: 60px;
-    margin-left: 450px;
-    margin-right: 450px;
+    margin-left: 600px;
+    margin-right: 600px;
     visibility: visible;
-    animation: chao 1s forwards; 
+    animation: chao 2s forwards;
 }
 
 @keyframes chao {
     0% { opacity: 1; }
-    100% { opacity: 0; }
+    100% { opacity: 0; 
+        visibility: hidden;}
 }
 
-.Logo {
-    position: relative  ;
+.imagen {
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    animation: hola 3.5s normal; 
 }
 
-@keyframes hola {
-    0% { opacity: 0; }
-    50% { opacity: 1; }
-    100%{ opacity: 0;}
+a {
+    width: 100px;
+    height: 100px;
 }
